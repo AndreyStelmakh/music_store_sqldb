@@ -78,6 +78,8 @@ INSERT INTO public.songs(song_id, album_id, name, duration) VALUES (12, 3, 'Эф
 INSERT INTO public.songs(song_id, album_id, name, duration) VALUES (13, 4, 'Дело ограничивается словами', 250);
 INSERT INTO public.songs(song_id, album_id, name, duration) VALUES (14, 5, 'Прошение об отставке', 210);
 INSERT INTO public.songs(song_id, album_id, name, duration) VALUES (15, 6, 'С 23 февраля', 265);
+INSERT INTO public.songs(song_id, album_id, name, duration) VALUES (16, 6, 'С 8 марта', 265);
+INSERT INTO public.songs(song_id, album_id, name, duration) VALUES (17, 6, 'С 14 февраля', 265);
 
 INSERT INTO public.collections(collection_id, year_of_release, name) VALUES (1, 2015, 'Клевета на ветерана');
 INSERT INTO public.collections(collection_id, year_of_release, name) VALUES (2, 2018, 'Не пустят людей');
