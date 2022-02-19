@@ -59,7 +59,7 @@ SELECT al.name
 		SELECT sg.album_id
 			FROM songs sg
 			GROUP BY sg.album_id
-			HAVING COUNT(*) =(
+			HAVING COUNT(*) =( 
 				SELECT MIN(cnt)
 					FROM (
 						SELECT COUNT(*) cnt
